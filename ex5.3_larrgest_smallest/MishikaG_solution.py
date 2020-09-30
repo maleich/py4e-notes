@@ -1,18 +1,16 @@
-num_list = []
+user_list = []
 
 while True:
+    num = input("Enter a number. If done entering numbers, enter done.")
+    if num == "done":
+        break
     try:
-        x = input("Enter a number: ")
-        if x == "done":
-            break
-        x = int(x)
-        num_list.append(x)
-
+        num = int(num)
+        user_list.append(num)
     except:
-        print("Invalid input")
+        print("Invalid Input")
 
-biggest = max(num_list)
-smallest = min(num_list)
-
-print("Maximum is", biggest)
+largest = max(user_list)
+smallest = min(user_list)
+print("Maximum is", largest)
 print("Minimum is", smallest)
