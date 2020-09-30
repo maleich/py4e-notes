@@ -1,5 +1,3 @@
-# Chien's solution
-
 int_list = []
 
 while True:
@@ -17,5 +15,3 @@ largest = max(int_list)
 smallest = min(int_list)
 print("Maximum is", largest)
 print("Minimum is", smallest)
-
-
