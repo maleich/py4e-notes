@@ -1,5 +1,5 @@
 
-# Jake's solution
+# Jake's solution (no list)
 
 max = 0
 min = 100000
